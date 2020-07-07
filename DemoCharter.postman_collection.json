@@ -227,7 +227,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8083/api/v1/customer/total/rewards?custId=100",
+							"raw": "http://localhost:8083/api/v1/customer/total/rewards?custId=1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -243,7 +243,7 @@
 							"query": [
 								{
 									"key": "custId",
-									"value": "100"
+									"value": "1"
 								}
 							]
 						}
@@ -256,7 +256,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8083/api/v1/customer/monthly/rewards?custId=100",
+							"raw": "http://localhost:8083/api/v1/customer/monthly/rewards?custId=1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -272,7 +272,7 @@
 							"query": [
 								{
 									"key": "custId",
-									"value": "100"
+									"value": "1"
 								}
 							]
 						}
@@ -294,7 +294,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8083/api/v1/remove/purchase/4",
+							"raw": "http://localhost:8083/api/v1/remove/purchase/transaction?txnId=11",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -305,7 +305,13 @@
 								"v1",
 								"remove",
 								"purchase",
-								"4"
+								"transaction"
+							],
+							"query": [
+								{
+									"key": "txnId",
+									"value": "11"
+								}
 							]
 						}
 					},
