@@ -27,7 +27,7 @@ Enter following to login -
 
 # Test App using Postman
 
-Import postman collection provide with the source code. Following REST api are exposed and can be tested -
+Import postman collection [DemoCharter.postman_collection.json] provide with the source code. Following REST api are exposed and can be tested -
 
 - Get Customers List
 - Add Customer
