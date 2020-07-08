@@ -13,11 +13,11 @@ Demo App provides REST api endpoints to store/manipulate Customer and Purchase t
 	
 # Test if Application is up and running
 
-Test URL: * http://localhost:8083/api/v1/customers *
+Test URL: http://localhost:8083/api/v1/customers
 	
 # Accessing H2 console
 
-Once application is started, use following url to access H2 DB console - * http://localhost:8083/h2-consoles *
+Once application is started, use following url to access H2 DB console - http://localhost:8083/h2-console 
 
 Enter following to login -
 
